@@ -1,0 +1,15 @@
+.form-createcurso{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.body-createcurso{
+  width: 100%;
+  text-align: center;
+}
+
+.row-createcurso{
+  width: 70%;
+}

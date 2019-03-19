@@ -8,6 +8,7 @@ const Router = EmberRouter.extend({
 
 Router.map(function() {
   this.route('createCurso');
+  this.route('enrolarcurso');
 });
 
 export default Router;

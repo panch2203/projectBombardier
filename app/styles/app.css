@@ -33,6 +33,12 @@
 
 .titulo{
   font-size: 40px;
+  margin: 0 0px
+}
+
+.titulo1{
+  font-size: 20px;
+  margin: 0 0px
 }
 
 .input-field{
@@ -43,5 +49,27 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+}
+
+.elemento-titulo{
+  width: 100%;
+}
+
+.info-personal{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 50%;
+}
+
+.boton-search{
+  width: 100%;
+}
+
+.empleado{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
   align-items: center;
 }

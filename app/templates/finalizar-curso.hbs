@@ -1,0 +1,109 @@
+{{outlet}}
+ <div class="row body-createcurso">
+   <h3 class="">Finalizar curso</h3>
+
+    <form class="col s12 form-createcurso">
+
+      <div class="row row-createcurso">
+        <div class="input-field col s6">
+          <input id="duracionReal" type="number" class="validate">
+          <label for="duracionReal">Duración real(horas)</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="participantesReal" type="number" class="validate">
+          <label for="participantesReal">Número de participantes real</label>
+        </div>
+      </div>
+
+      <div class="row row-createcurso">
+        <div class="input-field col s6">
+          <input id="costoReal" type="number" class="validate">
+          <label for="costoReal">Costo real (pesos)</label>
+        </div>
+      </div>
+
+      <table class="">
+        <thead>
+          <tr>
+              <th class="col s2">Matrícula</th>
+              <th class="col s2">Nombre</th>
+              <th class="col s2">Área</th>
+              <th class="col s2">Evaluación inicial</th>
+              <th class="col s2">Evaluación final</th>
+              <th class="col s2">Aprobado</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td class="col s2">A01272727</td>
+            <td class="col s2">Eclair</td>
+            <td class="col s2">Pintura</td>
+            <td class="col s2">60</td>
+            <td class="col s2">80</td>
+            <td class="col s2">
+                <label>
+                    <input type="checkbox" class="filled-in" checked="checked" />
+                    <span>Aprobado</span>
+                </label>
+            </td>
+          </tr>
+          <tr>
+            <td class="col s2">A01272828</td>
+            <td class="col s2">Eclair</td>
+            <td class="col s2">Pintura</td>
+            <td class="col s2">60</td>
+            <td class="col s2">69</td>
+            <td class="col s2">
+                <label>
+                    <input type="checkbox" class="filled-in"/>
+                    <span>No aprobado</span>
+                </label>
+            </td>
+          </tr>
+          <tr>
+            <td class="col s2">A01272929</td>
+            <td class="col s2">Eclair</td>
+            <td class="col s2">Pintura</td>
+            <td class="col s2">70</td>
+            <td class="col s2">90</td>
+            <td class="col s2">
+                <label>
+                    <input type="checkbox" class="filled-in" checked="checked" />
+                    <span>Aprobado</span>
+                </label>
+            </td>
+          </tr>
+          <tr>
+            <td class="col s2">A01273030</td>
+            <td class="col s2">Eclair</td>
+            <td class="col s2">Pintura</td>
+            <td class="col s2">80</td>
+            <td class="col s2">100</td>
+            <td class="col s2">
+                <label>
+                    <input type="checkbox" class="filled-in" checked="checked" />
+                    <span>Aprobado</span>
+                </label>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <div>
+        <form action="#">
+            <div class="file-field input-field">
+                <div class="btn">
+                    <span>Lista de asistencia</span>
+                    <input type="file">
+                </div>
+                <div class="file-path-wrapper">
+                    <input class="file-path validate" type="text">
+                </div>
+            </div>
+        </form>
+      </div>
+      <button class="btn waves-effect waves-light" type="submit" name="action">Finalizar
+        <i class="material-icons right">send</i>
+      </button>
+    </form>
+  </div>

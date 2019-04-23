@@ -10,6 +10,8 @@ Router.map(function() {
   this.route('createCurso');
   this.route('enrolarcurso');
   this.route('personal');
+  this.route('cursoespecifico');
+  this.route('personalespecifico');
 });
 
 export default Router;

@@ -13,6 +13,8 @@ Router.map(function() {
   this.route('create-personal');
   this.route('finalizar-curso');
   this.route('generar-documentos');
+  this.route('cursoespecifico');
+  this.route('personalespecifico');
 });
 
 export default Router;

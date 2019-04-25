@@ -73,3 +73,43 @@
   justify-content: flex-start;
   align-items: center;
 }
+
+.tabCurso{
+  display:flex;
+  flex-wrap: wrap;
+  color: black;
+  margin: 5%;
+
+}
+.customRow{
+  display: flex;
+  align-items: baseline;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0% 1% 2% 1%;
+
+}
+.myImage{
+  width: 98%; 
+  height: 400px; 
+  overflow: hidden; 
+  margin: 0% 1% 2% 1%; 
+  background-image: url("http://www.datoavisos.cl/wp-content/uploads/2017/06/CLASES-COMPUTACION-Y-CONTABILIDAD.jpg");
+
+   display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.courseStatus{
+  background-color: #008000;
+  color:white;
+  padding: 10px;
+  border-radius: 15px; 
+  width:110px;
+  font-size: 18pt;
+  margin: 15px;
+}
+.maginCourse{
+  margin:0% 5% 0% 5%;;
+}

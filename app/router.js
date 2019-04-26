@@ -15,6 +15,7 @@ Router.map(function() {
   this.route('generar-documentos');
   this.route('cursoespecifico');
   this.route('personalespecifico');
+  this.route('login');
 });
 
 export default Router;

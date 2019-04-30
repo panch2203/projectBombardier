@@ -16,6 +16,7 @@ Router.map(function() {
   this.route('cursoespecifico');
   this.route('personalespecifico');
   this.route('login');
+  this.route('cursos');
 });
 
 export default Router;
